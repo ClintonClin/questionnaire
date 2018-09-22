@@ -1,76 +1,58 @@
 <html>
 <head>
   <title>Questionnaire form </title>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
      <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1><strong>GeekOut</strong></h1>
-    <div class="container">
-      <div class ="row">
-        <div class="col-md-4">
-          <p><strong id="test">Test</strong> your knowledge in different platforms of coding languages and
+    <div class="container-fluid">
+      <div class ="row no-gutter">
+        <div class="col-md-5">
+          <h1><strong>GeekOut!</strong></h1>
+          <br>
+          <br>
+          <br>
+          <p class="test"><strong id="test">Test</strong> your knowledge in different platforms of coding languages and
           the entire technologocal ecosystem. Answer the following questions appropriately and an overall
           mark will be awarded. Feel free to test and retest yourself and use this as a motivation to
           dig deeper into your desires.<br>Some of the languages asked include java, javascript, python and
           some sql. ENJOY!</p>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-7">
+        <div class="col-md-7 dem">
           <form name=myform>
-            Quiz1:
-            <br>
+
             <p>What does SQL stand for?</p>
             <input type="radio" name="questionOne" value="answer1">Selected question language<br>
             <input type="radio" name="questionOne" value="answer2">Structural query language<br>
             <input type="radio" name="questionOne" value="answer3">Single question list<br>
             <br>
-            Question two:
-            <br>
+
             <p>Which of the following is a programming language?</p>
             <input type="radio" name="questionTwo" value="answer1">javascript <br>
             <input type="radio" name="questionTwo" value="answer2">HTML <br>
             <input type="radio" name="questionTwo" value="answer3">CSS <br>
-            <br>
-            Question three:
-            <br>
-            <p>Which of the following opertors is not true?</p>
+
+            <p>Which of the following opertors does not exist?</p>
             <input type="radio" name="questionThree" value="answer1"> || <br>
             <input type="radio" name="questionThree" value="answer2">$$ <br>
             <input type="radio" name="questionThree" value="answer3"> && <br>
+
+            <p>Which is the most commonly used programming language in the world?</p>
+            <input type="radio" name="questionFour" value="answer1"> python<br>
+            <input type="radio" name="questionFour" value="answer3">java <br>
+            <input type="radio" name="questionFour" value="answer2"> javascript<br>
+            <br>
+            <p>Which programming language is used to make whatsapp? </p>
+            <input type="radio" name="questionFive" value="answer1"> java<br>
+            <input type="radio" name="questionFive" value="answer2"> erlang<br>
+            <input type="radio" name="questionFive" value="answer3"> c#<br>
             <br>
 
-            Question four:
-            <br>
-            <p>What does SQL stand for?</p>
-            <input type="radio" name="questionFour" value="answer1"> <br>
-            <input type="radio" name="questionFour" value="answer3"> <br>
-            <input type="radio" name="questionFour" value="answer2"> <br>
-            <br>
-
-            Question five:
-            <br>
-            <p>What does SQL stand for?</p>
-            <input type="radio" name="questionFive" value="answer1"> <br>
-            <input type="radio" name="questionFive" value="answer2"> <br>
-            <input type="radio" name="questionFive" value="answer3"> <br>
-            <br>
-
-            Question six:
-            <br>
-            <p>What does SQL stand for?</p>
-            <input type="radio" name="questionSix" value="answer1"> <br>
-            <input type="radio" name="questionSix" value="answer2"> <br>
-            <input type="radio" name="questionSix" value="answer3"> <br>
-            <br>
-
-            Question seven:
-            <br>
-            <p>What does SQL stand for?</p>
-            <input type="radio" name="questionSeven" value="answer1"> <br>
-            <input type="radio" name="questionSeven" value="answer2"> <br>
-            <input type="radio" name="questionSeven" value="answer3"> <br>
-            <br>
+            <button type="submit" class="btn">Submit</button>
 
         </div>
       </div>
