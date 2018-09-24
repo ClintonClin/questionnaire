@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
      <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
     <div class="container-fluid">
@@ -21,38 +22,40 @@
           mark will be awarded. Feel free to test and retest yourself and use this as a motivation to
           dig deeper into your desires.<br>Some of the languages asked include java, javascript, python and
           some sql. ENJOY!</p>
+          <div id="result"><p id="message"></p></div>
         </div>
         <div class="col-md-7 dem">
-          <form name=myform>
+          <form id="myForm" name="myForm" action="index.html" method="POST">
 
             <p>What does SQL stand for?</p>
-            <input type="radio" name="questionOne" value="answer1">Selected question language<br>
-            <input type="radio" name="questionOne" value="answer2">Structural query language<br>
-            <input type="radio" name="questionOne" value="answer3">Single question list<br>
-            <br>
+            <input type="radio" name="questionOne" value="1">1. Selected question language<br>
+            <input type="radio" name="questionOne" value="2">2. Structural query language<br>
+            <input type="radio" name="questionOne" value="3">3. Single question list<br>
 
             <p>Which of the following is a programming language?</p>
-            <input type="radio" name="questionTwo" value="answer1">javascript <br>
-            <input type="radio" name="questionTwo" value="answer2">HTML <br>
-            <input type="radio" name="questionTwo" value="answer3">CSS <br>
+            <input type="radio" name="questionTwo" value="1">1. javascript <br>
+            <input type="radio" name="questionTwo" value="2">1. HTML <br>
+            <input type="radio" name="questionTwo" value="3">3. CSS <br>
 
             <p>Which of the following opertors does not exist?</p>
-            <input type="radio" name="questionThree" value="answer1"> || <br>
-            <input type="radio" name="questionThree" value="answer2">$$ <br>
-            <input type="radio" name="questionThree" value="answer3"> && <br>
+            <input type="radio" name="questionThree" value="1">1. || <br>
+            <input type="radio" name="questionThree" value="2">2. $$ <br>
+            <input type="radio" name="questionThree" value="3">3. && <br>
 
             <p>Which is the most commonly used programming language in the world?</p>
-            <input type="radio" name="questionFour" value="answer1"> python<br>
-            <input type="radio" name="questionFour" value="answer3">java <br>
-            <input type="radio" name="questionFour" value="answer2"> javascript<br>
-            <br>
+            <input type="radio" name="questionFour" value="1">1. python<br>
+            <input type="radio" name="questionFour" value="2">2. java <br>
+            <input type="radio" name="questionFour" value="3">3. javascript<br>
+
             <p>Which programming language is used to make whatsapp? </p>
-            <input type="radio" name="questionFive" value="answer1"> java<br>
-            <input type="radio" name="questionFive" value="answer2"> erlang<br>
-            <input type="radio" name="questionFive" value="answer3"> c#<br>
+            <input type="radio" name="questionFive" value="1">1. java<br>
+            <input type="radio" name="questionFive" value="2">2. erlang<br>
+            <input type="radio" name="questionFive" value="3">3. c#<br>
             <br>
 
-            <button type="submit" class="btn">Submit</button>
+            <input type="button" class="btn" onClick="quiz();" value="SUBMIT">
+            <script src="js/scripts.js"></script>
+          </form>
 
         </div>
       </div>
