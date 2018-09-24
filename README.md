@@ -1,12 +1,15 @@
-# questionnaire
+# Questionnaire
 A simple website that prompts the user to fill some questions and grades them
+
 ## Author
+
 > Clinton Okerio
 ## Description of Project
 The above project gives out a percentage of marks on the questions you got right.
-## setup instructions
+## Setup instructions
 > All you need is a browser, a github account and git knowledge so that you can be able to clone the project to your own repo.
-## breakdown of project
+
+## Breakdown of project
  writing of the html code to displayed by browser. Did this first since its easy and fast.<br/>
  #### Inputs: radio button1, radio button2, radio button3, radio button4, radio button5
  #### output: Percentage of correct answers got
@@ -17,7 +20,7 @@ The above project gives out a percentage of marks on the questions you got right
  #### output: percentage of correct answers
  
  ## Link to github pages
- ### https://clintonclin.github.io/Triangle_Tracker/
+ ### https://clintonclin.github.io/questionnaire/
 
 ## Lincense and copyright
 
